@@ -1,0 +1,9 @@
+parameters:
+    paths:
+        - ./app/**/*
+    level: 5
+    excludePaths:
+        - ./vendor/**/*
+        - ./storage/**/*
+        - ./tests/**/*
+        - ./app/ApiClients/Fanbase
