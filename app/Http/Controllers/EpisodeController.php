@@ -63,7 +63,7 @@ class EpisodeController extends RmoController
         $myRating = null;
 
         try {
-            $review = $this->reviewApi->reviewControllerFindOne($id);
+            $review = $this->reviewApi->reviewControllerFindOneByEpisode($id);
             $myReview = $review->getText();
             $myRating = $review->getRating();
         } catch (ApiException $e) {

@@ -52,3 +52,17 @@ Run `make test`.
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+# Screenshots
+
+### Character listing
+![Character listing](documentation/character listing.png)
+
+### Character detail
+![Character detail](documentation/character detail.png)
+
+### Episode detail with review and rating
+![Episode detail](documentation/episode detail.png)
+
+### Filters
+![Filters](documentation/filters.png)
